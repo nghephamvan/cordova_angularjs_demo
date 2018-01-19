@@ -1,7 +1,14 @@
 {
-  "name": "cordova-with-angular-js",
-  "version": "0.0.0",
-  "license": "MIT",
+  "name": "vn.ame.pvnghe",
+  "version": "1.0.0",
+  "license": "MIT; Apache-2.0",
+  "description": "Project demo cordova and angular js",
+  "main": "index.js",
+  "author": {
+    "name": "pvnghe",
+    "email": "ilovetayninh@gmail.com",
+    "url": "https://github.com/nghephamvan/cordova_angularjs_demo"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,6 +19,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular-devkit/core": "0.0.28",
     "@angular/animations": "^5.1.0",
     "@angular/common": "^5.1.0",
     "@angular/compiler": "^5.1.0",
