@@ -1,26 +1,55 @@
 # Create project [Cordova](https://cordova.apache.org) using [Angular JS](https://github.com/angular/angular-cli)
 
+## Table of Contents
+
+* [Download and install Node.js](#download-and-install-Node.js)
+* [Install the Angular CLI](#install-the-angular-cli)
+* [How to do](#how-to-do)
+
 ## Download and install Node.js
 On installation you should be able to invoke node and npm on your command line.
 * on OS X and Linux:
-> sudo npm install -g cordova
+```bash
+sudo npm install -g cordova
+```
 
 * on Windows:
-> npm install -g cordova
+```bash
+npm install -g cordova
+```
 
 `Note: "-g" is install global` 
 
 ## Install the Angular CLI
 Install the Angular CLI, if you haven't already done so.
->npm install -g @angular/cli
+```bash
+npm install -g @angular/cli
+```
 
+## How to do
 ### Step 1: Create project demo 'Cordova' by command line
->cordova create [path-name] [domain-style] [project-name]
+```bash
+cordova create [path-name] [domain-style] [project-name]
+```
 
 Example: >cordova create demo vn.com.pvnghe Helloworld
 
 ### Step 2: Create project demo 'Angular' by command line
-`Note: create project [Angular] base on [Cordova]`
+`Note: create project [Angular] base on [Cordova]. You should back-up file pacage.json`
+
+```bash
+ng new [path-name]
+```
+
+### Step 3: Update package.json
+Writing here........
+
+
+
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
