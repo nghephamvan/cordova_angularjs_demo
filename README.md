@@ -9,6 +9,7 @@
 # Create the App Cordova Demo by command line
 >cordova create [path-name] [domain-style] [project-name]
 
+Example: >cordova create demo vn.com.pvnghe Helloworld
 
 # DemoAngularApp
 
