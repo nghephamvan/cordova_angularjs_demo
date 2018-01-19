@@ -1,5 +1,4 @@
-# Create project [cordova] and [angular js]
-
+# Create project [Cordova](https://cordova.apache.org) using [Angular JS](https://github.com/angular/angular-cli)
 1.Download and install Node.js. On installation you should be able to invoke node and npm on your command line.
 * on OS X and Linux:
 > sudo npm install -g cordova
@@ -8,7 +7,7 @@
 > npm install -g cordova
 
 # Create the App Cordova Demo by command line
->cordova create <path-name> <domain-style> <project-name>
+>cordova create [path-name] [domain-style] [project-name]
 
 
 # DemoAngularApp
