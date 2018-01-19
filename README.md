@@ -7,18 +7,20 @@ On installation you should be able to invoke node and npm on your command line.
 
 * on Windows:
 > npm install -g cordova
-
-### Create project demo 'Cordova' by command line
->cordova create [path-name] [domain-style] [project-name]
-
-Example: >cordova create demo vn.com.pvnghe Helloworld
+`Note: "-g" is install global` 
 
 ## Install the Angular CLI
 Install the Angular CLI, if you haven't already done so.
 >npm install -g @angular/cli
 
-### Create project demo 'Angular' by command line
+### Step 1: Create project demo 'Cordova' by command line
+>cordova create [path-name] [domain-style] [project-name]
+
+Example: >cordova create demo vn.com.pvnghe Helloworld
+
+### Step 2: Create project demo 'Angular' by command line
 `Note: create project [Angular] base on [Cordova]`
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
 #### Development server
