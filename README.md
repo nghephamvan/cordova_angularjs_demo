@@ -7,6 +7,7 @@ On installation you should be able to invoke node and npm on your command line.
 
 * on Windows:
 > npm install -g cordova
+
 `Note: "-g" is install global` 
 
 ## Install the Angular CLI
