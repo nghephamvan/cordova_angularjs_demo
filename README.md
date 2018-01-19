@@ -62,7 +62,23 @@ Update config in `.angular-cli.json` for build cordova source:
 npm install @angular-devkit/core
 ```
 
-### Step 5: Run 'ng build'
+### Step 5: Run angular build
+```bash
+ng build
+```
+### Step 5: Cordova platform add browser and run in browser
+Add platform browser
+```bash
+cordova platform add brower
+```
+
+Run platform browser
+```bash
+cordova run brower
+```
+
+
+
 
 
 
