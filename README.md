@@ -89,9 +89,22 @@ Run platform browser
 cordova run brower
 ```
 
+### Step 6: Cordova platform add android and run build
 
+#### Installing the Requirements
+##### Java Development Kit (JDK) and Install [Android Studio](https://developer.android.com/studio/index.html).
+Add platform android
+```bash
+cordova platform add android
+```
 
+Run platform android
+Open project platform android by Android Studio
 
+##### Update source for android
+```bash
+cordova platform update android
+```
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
