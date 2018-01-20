@@ -41,21 +41,34 @@ Example: >cordova create demo vn.com.pvnghe Helloworld
 ng new [path-name]
 ```
 
-### Step 3: Update package.json and .angular-cli.json
-Add config in `package.json`:
+### Step 3: Update config
+- Update config in `package.json`:
 ```bash
 "main": "index.js";
 ```
 
-Update config in `.angular-cli.json` for build cordova source:
-
+- Update config in `.angular-cli.json` for build cordova source:
 ```bash
  "apps": [
     {
-        "outDir": "www",
-    }
+        "outDir": "./www",
+    },
+    {
+        ...
+    },
+    ...
  ]
 ```
+- Update config in `tsconfig.json`
+```bash
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        ....
+    }
+}
+```
+
 
 ### Step 4: Install more lib for 'ng build'
 ```bash
