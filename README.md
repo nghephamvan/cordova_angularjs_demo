@@ -69,7 +69,6 @@ ng new [path-name]
 }
 ```
 
-
 ### Step 4: Install more lib for 'ng build'
 ```bash
 npm install @angular-devkit/core
