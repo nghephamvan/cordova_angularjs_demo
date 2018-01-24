@@ -44,7 +44,10 @@ ng new [path-name]
 ```bash
 ng new [path-name] --style=scss
 ```
-
+or 
+```bash
+ng set defaults.styleExt scss
+```
 
 ### Step 3: Update config
 - Update config in `package.json`:
