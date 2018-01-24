@@ -36,10 +36,15 @@ Example: >cordova create demo vn.com.pvnghe Helloworld
 
 ### Step 2: Create project demo 'Angular' by command line
 `Note: create project [Angular] base on [Cordova]. You should back-up file pacage.json`
-
+- Normal:
 ```bash
 ng new [path-name]
 ```
+- Using scss:
+```bash
+ng new [path-name] --style=scss
+```
+
 
 ### Step 3: Update config
 - Update config in `package.json`:
