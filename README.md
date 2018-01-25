@@ -3,23 +3,18 @@
 ## Table of Contents
 
 * [Download and install Node.js](#download-and-install-Node.js)
+* [Install cordova](#install-cordova)
 * [Install the Angular CLI](#install-the-angular-cli)
 * [How to do](#how-to-do)
 
-## Download and install Node.js
+## Download and install [Node.js](https://nodejs.org)
+## Install Cordova
 On installation you should be able to invoke node and npm on your command line.
-* on OS X and Linux:
-```bash
-sudo npm install -g cordova
-```
-
-* on Windows:
 ```bash
 npm install -g cordova
 ```
 
 `Note: "-g" is install global` 
-
 ## Install the Angular CLI
 Install the Angular CLI, if you haven't already done so.
 ```bash
