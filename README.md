@@ -84,30 +84,19 @@ ng build
 ### Step 5: Cordova platform add browser and run in browser
 Add platform browser
 ```bash
-cordova platform add brower
+cordova platform add browser
 ```
 
 Run platform browser
 ```bash
-cordova run brower
+cordova run browser
 ```
-
-### Step 6: Cordova platform add android and run build
-
-#### Installing the Requirements
-##### Java Development Kit (JDK) and Install [Android Studio](https://developer.android.com/studio/index.html).
-Add platform android
+Update source for browser
 ```bash
-cordova platform add android
+cordova platform update browser
 ```
 
-Run platform android
-Open project platform android by Android Studio
 
-##### Update source for android
-```bash
-cordova platform update android
-```
 
 #### Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
