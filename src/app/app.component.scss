@@ -1,6 +1,7 @@
 h1 {
-    color: #333;
+    color: darkblue;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font: 200%;
 }
 
@@ -38,13 +39,13 @@ input[text], button {
 
 /* Portrait layout (default) */
 .app {
-    position: absolute;             /* position in the center of the screen */
-    left:50px;
+    position: fixed;             /* position in the center of the screen */
+    left:15%;
     height:50px;                   /* text area height */
-    width:225px;                   /* text area width */
+    width:250px;                   /* text area width */
     text-align: left;
-    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+    padding:5px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin: 5px 0px 0px 0px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
 }
 
