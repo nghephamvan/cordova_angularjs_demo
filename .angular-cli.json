@@ -5,7 +5,7 @@
   },
   "apps": [
     {
-      "name": "Demo ",
+      "name": "Demo",
       "root": "src",
       "outDir": "./www",
       "assets": [
