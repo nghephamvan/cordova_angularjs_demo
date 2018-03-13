@@ -13,7 +13,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
-import { HttpClientModule } from '@angular/common/http/src/module';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
