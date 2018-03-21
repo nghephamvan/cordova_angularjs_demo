@@ -7,6 +7,7 @@ import { catchError, map, tap } from 'rxjs/operators';
 
 import { Hero } from './heroes/hero';
 import { MessageService } from './message.service';
+import { Weppon } from './heroes/weppon';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
@@ -16,6 +17,7 @@ const httpOptions = {
 export class HeroService {
 
   private heroesUrl = 'api/heroes';  // URL to web api
+  private wepponsUrl = 'api/weppons';  // URL to web api
 
   constructor(
     private http: HttpClient,
@@ -53,6 +55,14 @@ export class HeroService {
     );
   }
 
+   /** GET hero by id. Will 404 if id not found */
+   getWeppon(id: number): Observable<Weppon> {
+    const url = `${this.wepponsUrl}/${id}`;
+    return this.http.get<Weppon>(url).pipe(
+      tap(_ => this.log(`fetched Weppon id=${id}`)),
+      catchError(this.handleError<Weppon>(`getWeppon id=${id}`))
+    );
+  }
   /* GET heroes whose name contains search term */
   searchHeroes(term: string): Observable<Hero[]> {
     if (!term.trim()) {
