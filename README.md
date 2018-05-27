@@ -79,10 +79,9 @@ npm install @angular-devkit/core
 To index.html add this script '<script type=”text/javascript” src=”cordova.js”></script>'
 
 Copy dist folder content to www folder. open the 'index.html' file and change <base> tag from
-<base href="/"> 
-to
-<base href="./"> 
-
+```bash
+<base href="/"> to <base href="./"> 
+```
 ### Step 5: Run angular build
 ```bash
 ng build
